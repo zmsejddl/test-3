@@ -1,0 +1,90 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="8A5F6F53-E6B5-1232-2EE8-68D13F827F42" schemaObject="EA7229EE-7866-3723-9A62-76C972CAF243" name="CUSTOMER">
+<sourceConnName>Madang</sourceConnName>
+<sourceObjSchema>C##MADANG</sourceObjSchema>
+<sourceObjName>CUSTOMER</sourceObjName>
+<createdBy>ITPS</createdBy>
+<createdTime>2024-04-26 03:38:27 UTC</createdTime>
+<ownerDesignName>파일</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="CUSTID" id="72E5D635-6071-74E6-E117-9964A510A3C8">
+<sourceConnName>Madang</sourceConnName>
+<sourceObjSchema>CUSTOMER</sourceObjSchema>
+<sourceObjName>CUSTID</sourceObjName>
+<createdBy>ITPS</createdBy>
+<createdTime>2024-04-26 03:38:27 UTC</createdTime>
+<ownerDesignName>파일</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>2</dataTypePrecision>
+<dataTypeScale>0</dataTypeScale>
+<ownDataTypeParameters>,2,0</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="NAME" id="8AA29F38-2BC2-7F7C-AF0F-947DF9599AEB">
+<sourceConnName>Madang</sourceConnName>
+<sourceObjSchema>CUSTOMER</sourceObjSchema>
+<sourceObjName>NAME</sourceObjName>
+<createdBy>ITPS</createdBy>
+<createdTime>2024-04-26 03:38:27 UTC</createdTime>
+<ownerDesignName>파일</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>40 BYTE</dataTypeSize>
+<ownDataTypeParameters>40 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="ADDRESS" id="79284675-4E59-045D-27D6-CFE16678CCBF">
+<sourceConnName>Madang</sourceConnName>
+<sourceObjSchema>CUSTOMER</sourceObjSchema>
+<sourceObjName>ADDRESS</sourceObjName>
+<createdBy>ITPS</createdBy>
+<createdTime>2024-04-26 03:38:27 UTC</createdTime>
+<ownerDesignName>파일</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50 BYTE</dataTypeSize>
+<ownDataTypeParameters>50 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="PHONE" id="3E35E54B-565B-74FE-4D08-A6712EE58EC7">
+<sourceConnName>Madang</sourceConnName>
+<sourceObjSchema>CUSTOMER</sourceObjSchema>
+<sourceObjName>PHONE</sourceObjName>
+<createdBy>ITPS</createdBy>
+<createdTime>2024-04-26 03:38:27 UTC</createdTime>
+<ownerDesignName>파일</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20 BYTE</dataTypeSize>
+<ownDataTypeParameters>20 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="2FE047B8-F873-E06B-40C7-86CF43676569" schemaObject="EA7229EE-7866-3723-9A62-76C972CAF243" name="CUSTOMER_PK">
+<sourceConnName>Madang</sourceConnName>
+<sourceObjSchema>C##MADANG</sourceObjSchema>
+<sourceObjName>SYS_C007300</sourceObjName>
+<createdBy>ITPS</createdBy>
+<createdTime>2024-04-26 03:38:27 UTC</createdTime>
+<ownerDesignName>파일</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="72E5D635-6071-74E6-E117-9964A510A3C8"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

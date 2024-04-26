@@ -1,0 +1,62 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="3ACB2F2C-3635-BF0A-6CB8-3C9608F734F3" name="play">
+<createdBy>ITPS</createdBy>
+<createdTime>2024-04-26 06:23:01 UTC</createdTime>
+<ownerDesignName>파일</ownerDesignName>
+<ordsAlias>table_13</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="part_id" id="9CC45CFE-AB50-65DF-9F75-2D5E71F0F897">
+<createdBy>ITPS</createdBy>
+<createdTime>2024-04-26 06:24:03 UTC</createdTime>
+<ownerDesignName>파일</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="B49F9185-730E-35A8-A0F4-69A359A600B0" referredColumn="8D57C890-414E-8B3A-07EC-B8C6BD0E28CF"/>
+</associations>
+</Column>
+<Column name="car_brand" id="07BC8BAB-4E23-D849-2D61-86E1AFA23FD4">
+<createdBy>ITPS</createdBy>
+<createdTime>2024-04-26 06:24:57 UTC</createdTime>
+<ownerDesignName>파일</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="2D81A9CA-2F7B-7C23-19C1-4C66D9916644" referredColumn="435F196E-91F4-EB1A-E449-B255DB117B63"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="A583FC23-32C2-E2E1-8F6E-859FEC29025C" name="play_part_FK">
+<createdBy>ITPS</createdBy>
+<createdTime>2024-04-26 06:23:59 UTC</createdTime>
+<ownerDesignName>파일</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="9CC45CFE-AB50-65DF-9F75-2D5E71F0F897"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="22E3AB0D-2377-6D56-6177-7081CBCB29E6" name="play_car_FK">
+<createdBy>ITPS</createdBy>
+<createdTime>2024-04-26 06:24:48 UTC</createdTime>
+<ownerDesignName>파일</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="07BC8BAB-4E23-D849-2D61-86E1AFA23FD4"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

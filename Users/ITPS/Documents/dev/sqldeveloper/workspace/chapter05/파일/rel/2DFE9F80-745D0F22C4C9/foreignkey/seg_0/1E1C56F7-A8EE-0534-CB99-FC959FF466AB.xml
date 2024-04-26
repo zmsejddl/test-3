@@ -1,0 +1,19 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="1E1C56F7-A8EE-0534-CB99-FC959FF466AB" containerWithKeyObject="5D717C01-CDEA-34D9-FCC5-F68513CDDC17" localFKIndex="5CBDD1BD-4F21-A54C-9EAD-F7409BD7C210" name="SYS_C007523">
+<sourceConnName>Madang</sourceConnName>
+<sourceObjSchema>C##MADANG</sourceObjSchema>
+<sourceObjName>SYS_C007523</sourceObjName>
+<createdBy>ITPS</createdBy>
+<createdTime>2024-04-26 05:42:12 UTC</createdTime>
+<ownerDesignName>파일</ownerDesignName>
+<referredTableLongName>C##MADANG.PROFESSOR</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>E9DA6062-6A1A-9990-B248-94F88B51C6FB</referredTableID>
+<keyObject>4637B647-38FC-2E5B-CFEF-37D71624EBBC</keyObject>
+<referredKeyID>4637B647-38FC-2E5B-CFEF-37D71624EBBC</referredKeyID>
+<mandatory>false</mandatory>
+<refColNames>SSN</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

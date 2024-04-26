@@ -1,0 +1,72 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<TableProxyOraclev12c class="oracle.dbtools.crest.model.design.storage.oracle.v12c.TableProxyOraclev12c" name="ORDERS" directorySegmentName="seg_0" id="20398D8F-8E14-12C9-3A45-6162615562C8">
+<createdBy>ITPS</createdBy>
+<createdTime>2024-04-26 03:38:38 UTC</createdTime>
+<ownerDesignName>파일</ownerDesignName>
+<schemaObject>EA7229EE-7866-3723-9A62-76C972CAF243</schemaObject>
+<logging>YES</logging>
+<partitionedRowMovement>DISABLE</partitionedRowMovement>
+<segment>3C260D1E-71CC-8486-1015-4FDC36DF7381</segment>
+<tableSpace>2B41C5AD-097E-E47C-7494-003355137C52</tableSpace>
+<temporaryChanged>false</temporaryChanged>
+<accessDriverType>oracle_loader</accessDriverType>
+<rejectLimit></rejectLimit>
+<inMemory>NO</inMemory>
+<columnProxies itemClass="oracle.dbtools.crest.model.design.storage.oracle.v12c.ColumnProxyOraclev12c">
+<ColumnProxy name="BOOKID" id="183CE0D9-EEA1-1635-CC1A-8AB9B36C11C4">
+<createdBy>ITPS</createdBy>
+<createdTime>2024-04-26 03:38:38 UTC</createdTime>
+<ownerDesignName>파일</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="ORDERDATE" id="3CF9F23F-AD60-C07B-90C8-8B3437CFBF62">
+<createdBy>ITPS</createdBy>
+<createdTime>2024-04-26 03:38:38 UTC</createdTime>
+<ownerDesignName>파일</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="BOOKNAME" id="41650169-426F-DE78-EB69-C84CF2579D66">
+<createdBy>ITPS</createdBy>
+<createdTime>2024-04-26 03:38:38 UTC</createdTime>
+<ownerDesignName>파일</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="CUSTID" id="49A4B4B4-3378-BA1A-21DE-92120A750C8F">
+<createdBy>ITPS</createdBy>
+<createdTime>2024-04-26 03:38:38 UTC</createdTime>
+<ownerDesignName>파일</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="ORDERID" id="B8B0D045-FC59-6F63-36BA-9788BFFADD3E">
+<createdBy>ITPS</createdBy>
+<createdTime>2024-04-26 03:38:38 UTC</createdTime>
+<ownerDesignName>파일</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="SALEPRICE" id="FA0EE1B6-AF61-E3D5-D97C-7EB98D81C3DF">
+<createdBy>ITPS</createdBy>
+<createdTime>2024-04-26 03:38:38 UTC</createdTime>
+<ownerDesignName>파일</ownerDesignName>
+</ColumnProxy>
+</columnProxies>
+<foreignKeys>
+<ForeignKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.FKProxyOraclev10g" name="SYS_C007303" id="C4F2752C-A914-CA26-5632-0EB72E493B1B">
+<createdBy>ITPS</createdBy>
+<createdTime>2024-04-26 03:38:38 UTC</createdTime>
+<ownerDesignName>파일</ownerDesignName>
+</ForeignKey>
+<ForeignKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.FKProxyOraclev10g" name="SYS_C007302" id="F9911D63-6BAD-8FEC-5E1E-FE1CE46E4154">
+<createdBy>ITPS</createdBy>
+<createdTime>2024-04-26 03:38:38 UTC</createdTime>
+<ownerDesignName>파일</ownerDesignName>
+</ForeignKey>
+</foreignKeys>
+<primaryKeys>
+<PrimaryKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.PKProxyOraclev10g" name="ORDERS_PK" id="62935C67-6C18-C737-96B8-6D067FCD5BB2">
+<createdBy>ITPS</createdBy>
+<createdTime>2024-04-26 03:38:38 UTC</createdTime>
+<ownerDesignName>파일</ownerDesignName>
+<schemaObject>EA7229EE-7866-3723-9A62-76C972CAF243</schemaObject>
+<segment>615FC0CA-6FB9-C7D1-448E-3B9BB7DCB418</segment>
+<tableSpace>2B41C5AD-097E-E47C-7494-003355137C52</tableSpace>
+<indexSegment>615FC0CA-6FB9-C7D1-448E-3B9BB7DCB418</indexSegment>
+<indexSort>SORTED</indexSort>
+<usingIndex>BY INDEX NAME</usingIndex>
+</PrimaryKey>
+</primaryKeys>
+</TableProxyOraclev12c>

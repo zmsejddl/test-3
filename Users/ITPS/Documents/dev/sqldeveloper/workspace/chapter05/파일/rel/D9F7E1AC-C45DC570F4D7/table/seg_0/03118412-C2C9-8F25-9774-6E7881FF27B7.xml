@@ -1,0 +1,83 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="03118412-C2C9-8F25-9774-6E7881FF27B7" name="CD">
+<createdBy>ITPS</createdBy>
+<createdTime>2024-04-26 06:29:26 UTC</createdTime>
+<ownerDesignName>파일</ownerDesignName>
+<ordsAlias>table_1</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="title" id="72023A3B-6FD0-6AD3-4D8F-908896E3D594">
+<createdBy>ITPS</createdBy>
+<createdTime>2024-04-26 06:29:49 UTC</createdTime>
+<ownerDesignName>파일</ownerDesignName>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="price" id="23BEE729-CE3E-0D41-72C2-4CFE24191951">
+<createdBy>ITPS</createdBy>
+<createdTime>2024-04-26 06:29:49 UTC</createdTime>
+<ownerDesignName>파일</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="genre" id="07E9F870-9E39-3300-CCDB-7D853B081CE4">
+<createdBy>ITPS</createdBy>
+<createdTime>2024-04-26 06:29:49 UTC</createdTime>
+<ownerDesignName>파일</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="list" id="483900F9-7A46-F290-C5D9-939CCA8C8F4A">
+<createdBy>ITPS</createdBy>
+<createdTime>2024-04-26 06:29:49 UTC</createdTime>
+<ownerDesignName>파일</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="tracklist_track_title" id="818561C1-3595-ABCC-862C-EB4BEBE3140C">
+<createdBy>ITPS</createdBy>
+<createdTime>2024-04-26 06:50:51 UTC</createdTime>
+<ownerDesignName>파일</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="2150A08D-EDC0-3D37-D75D-A671BDFE4935" referredColumn="571CE92A-3CB4-E9E2-F443-419C85219B1A"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="4F67564C-07F1-06C2-07A6-B433F6F7E82C" name="CD_PK">
+<createdBy>ITPS</createdBy>
+<createdTime>2024-04-26 06:38:31 UTC</createdTime>
+<ownerDesignName>파일</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="72023A3B-6FD0-6AD3-4D8F-908896E3D594"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="91A1FBB0-DE60-134F-A315-C0027D3C836D" name="CD_tracklist_FK">
+<createdBy>ITPS</createdBy>
+<createdTime>2024-04-26 06:50:46 UTC</createdTime>
+<ownerDesignName>파일</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="818561C1-3595-ABCC-862C-EB4BEBE3140C"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

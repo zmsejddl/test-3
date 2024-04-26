@@ -1,0 +1,47 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="CCF060DD-E54F-9FE6-6A0A-885E5F68FADE" name="tracklist">
+<createdBy>ITPS</createdBy>
+<createdTime>2024-04-26 06:39:20 UTC</createdTime>
+<ownerDesignName>파일</ownerDesignName>
+<ordsAlias>table_4</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="track_title" id="571CE92A-3CB4-E9E2-F443-419C85219B1A">
+<createdBy>ITPS</createdBy>
+<createdTime>2024-04-26 06:40:55 UTC</createdTime>
+<ownerDesignName>파일</ownerDesignName>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="03BF611F-F328-0744-EE6B-95A18A49E466" referredColumn="E1974813-6A41-679D-43E5-BF7CB2029DF5"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="7AD4BBE9-71E4-9F65-58C3-8FE696FBC714" name="tracklist_PK">
+<createdBy>ITPS</createdBy>
+<createdTime>2024-04-26 06:50:42 UTC</createdTime>
+<ownerDesignName>파일</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="571CE92A-3CB4-E9E2-F443-419C85219B1A"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="F70AF015-4A6E-006F-2C0F-BDCF00D4A4F6" name="tracklist_track_FK">
+<createdBy>ITPS</createdBy>
+<createdTime>2024-04-26 06:40:50 UTC</createdTime>
+<ownerDesignName>파일</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="571CE92A-3CB4-E9E2-F443-419C85219B1A"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

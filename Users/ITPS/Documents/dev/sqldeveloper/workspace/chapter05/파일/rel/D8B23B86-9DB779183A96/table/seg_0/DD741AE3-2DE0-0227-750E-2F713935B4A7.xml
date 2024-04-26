@@ -1,0 +1,69 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="DD741AE3-2DE0-0227-750E-2F713935B4A7" name="stay">
+<createdBy>ITPS</createdBy>
+<createdTime>2024-04-26 06:33:08 UTC</createdTime>
+<ownerDesignName>파일</ownerDesignName>
+<ordsAlias>table_5</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="money" id="18DD53BB-F208-303F-2C12-2B710C7985C9">
+<createdBy>ITPS</createdBy>
+<createdTime>2024-04-26 06:33:33 UTC</createdTime>
+<ownerDesignName>파일</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="payway" id="86BC8CC2-C5E2-5A80-C51A-B3A4708B714A">
+<createdBy>ITPS</createdBy>
+<createdTime>2024-04-26 06:33:33 UTC</createdTime>
+<ownerDesignName>파일</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="reservation_resdate" id="3E8F1324-0747-7408-9F28-F88119CFE690">
+<createdBy>ITPS</createdBy>
+<createdTime>2024-04-26 06:35:51 UTC</createdTime>
+<ownerDesignName>파일</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="28E187F1-E51C-E9DE-E2D0-FA452265C337" referredColumn="D89E7DAF-D5B4-AA97-CC34-B4B15ADC5578"/>
+</associations>
+</Column>
+<Column name="reservation_startdate" id="E6788DD5-862C-D143-0B06-2C034BF5C9D4">
+<createdBy>ITPS</createdBy>
+<createdTime>2024-04-26 06:35:51 UTC</createdTime>
+<ownerDesignName>파일</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="28E187F1-E51C-E9DE-E2D0-FA452265C337" referredColumn="57EE49DA-396C-C223-CACA-97D8A2694D45"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="61C6E876-5BBA-E81B-02A9-02FF5B868433" name="stay_reservation_FK">
+<createdBy>ITPS</createdBy>
+<createdTime>2024-04-26 06:35:34 UTC</createdTime>
+<ownerDesignName>파일</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="3E8F1324-0747-7408-9F28-F88119CFE690"/>
+<colUsage columnID="E6788DD5-862C-D143-0B06-2C034BF5C9D4"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

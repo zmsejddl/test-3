@@ -1,0 +1,70 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="91B4F568-08B0-4623-31BD-BFBF3ABF2B4D" schemaObject="DE123061-E84B-EE1C-2E2D-10D0D1C239C1" name="WORK_IN">
+<sourceConnName>Madang</sourceConnName>
+<sourceObjSchema>C##MADANG</sourceObjSchema>
+<sourceObjName>WORK_IN</sourceObjName>
+<createdBy>ITPS</createdBy>
+<createdTime>2024-04-26 05:49:50 UTC</createdTime>
+<ownerDesignName>파일</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="PROFESSORSSN" id="5D59D9E5-9574-2F74-561B-EA5F5012D44D">
+<sourceConnName>Madang</sourceConnName>
+<sourceObjSchema>WORK_IN</sourceObjSchema>
+<sourceObjName>PROFESSORSSN</sourceObjName>
+<createdBy>ITPS</createdBy>
+<createdTime>2024-04-26 05:49:50 UTC</createdTime>
+<ownerDesignName>파일</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="F97743A3-62B3-EC8A-0053-26B25CE9D180" referredColumn="AF41E079-C25A-1F2F-C09D-196026951791"/>
+</associations>
+</Column>
+<Column name="PID" id="14579921-9AD2-44C4-AAD7-636A9BB429B0">
+<sourceConnName>Madang</sourceConnName>
+<sourceObjSchema>WORK_IN</sourceObjSchema>
+<sourceObjName>PID</sourceObjName>
+<createdBy>ITPS</createdBy>
+<createdTime>2024-04-26 05:49:50 UTC</createdTime>
+<ownerDesignName>파일</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="42FDFB6B-52D9-63BF-C3CC-21659B1C2AAB" referredColumn="C36B4282-8C98-F812-A166-B86B04BEB291"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="C24E3FCE-D9D5-0B97-70C7-2854DBCBB2EE" name="SYS_C007526">
+<createdBy>ITPS</createdBy>
+<createdTime>2024-04-26 05:49:50 UTC</createdTime>
+<ownerDesignName>파일</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="5D59D9E5-9574-2F74-561B-EA5F5012D44D"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="DE4EF25D-8FF9-3ACE-A5EF-29C43FE3DEAE" name="SYS_C007527">
+<createdBy>ITPS</createdBy>
+<createdTime>2024-04-26 05:49:50 UTC</createdTime>
+<ownerDesignName>파일</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="14579921-9AD2-44C4-AAD7-636A9BB429B0"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

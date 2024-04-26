@@ -1,0 +1,71 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="663979C8-3F9B-FC47-88B3-E30FB5C70B01" name="NewCustomer">
+<createdBy>ITPS</createdBy>
+<createdTime>2024-04-26 03:22:47 UTC</createdTime>
+<ownerDesignName>파일</ownerDesignName>
+<ordsAlias>table_4</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="custid" id="ADAE65D5-D9CE-1C96-D512-36DBB398425B">
+<createdBy>ITPS</createdBy>
+<createdTime>2024-04-26 03:23:11 UTC</createdTime>
+<ownerDesignName>파일</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="name" id="295C1174-3967-4353-D732-221D9835A8F4">
+<createdBy>ITPS</createdBy>
+<createdTime>2024-04-26 03:23:11 UTC</createdTime>
+<ownerDesignName>파일</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>40</dataTypeSize>
+<ownDataTypeParameters>40,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="address" id="20E04588-765E-0743-4BB3-98E87EDFEB9E">
+<createdBy>ITPS</createdBy>
+<createdTime>2024-04-26 03:23:11 UTC</createdTime>
+<ownerDesignName>파일</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>300</dataTypeSize>
+<ownDataTypeParameters>300,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="phone" id="7385BA8E-EBE0-4121-A7F2-C07E25F69FBC">
+<createdBy>ITPS</createdBy>
+<createdTime>2024-04-26 03:23:11 UTC</createdTime>
+<ownerDesignName>파일</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>300</dataTypeSize>
+<ownDataTypeParameters>300,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="11E71844-F28E-0E1C-7E81-C743463386DE" name="NewCustomer_PK">
+<createdBy>ITPS</createdBy>
+<createdTime>2024-04-26 03:23:11 UTC</createdTime>
+<ownerDesignName>파일</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="ADAE65D5-D9CE-1C96-D512-36DBB398425B"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

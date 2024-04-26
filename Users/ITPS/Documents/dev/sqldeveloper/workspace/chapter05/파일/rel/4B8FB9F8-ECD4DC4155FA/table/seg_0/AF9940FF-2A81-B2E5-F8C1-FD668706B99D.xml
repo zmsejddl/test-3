@@ -1,0 +1,95 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="AF9940FF-2A81-B2E5-F8C1-FD668706B99D" name="도서">
+<createdBy>ITPS</createdBy>
+<createdTime>2024-04-26 02:28:12 UTC</createdTime>
+<ownerDesignName>파일</ownerDesignName>
+<ordsAlias>table_3</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="도서번호" id="A0EEE630-E646-8CEB-74FA-BE5EA222BD85">
+<createdBy>ITPS</createdBy>
+<createdTime>2024-04-26 02:29:25 UTC</createdTime>
+<ownerDesignName>파일</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="도서이름" id="4960CE66-D58A-7F27-F510-D4022D5B0B81">
+<createdBy>ITPS</createdBy>
+<createdTime>2024-04-26 02:30:42 UTC</createdTime>
+<ownerDesignName>파일</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100</dataTypeSize>
+<ownDataTypeParameters>100,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="도서단가" id="F4E5850A-CDF0-866D-4105-E8FD9E2AD4E9">
+<createdBy>ITPS</createdBy>
+<createdTime>2024-04-26 02:30:42 UTC</createdTime>
+<ownerDesignName>파일</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="출판사이름" id="ED08979C-F4D7-500D-11D6-FE3E1F35639D">
+<createdBy>ITPS</createdBy>
+<createdTime>2024-04-26 02:30:42 UTC</createdTime>
+<ownerDesignName>파일</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>40</dataTypeSize>
+<ownDataTypeParameters>40,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="출판사_출판사이름" id="DB2F533C-6E72-634B-A6BC-A713DCB31FCE">
+<createdBy>ITPS</createdBy>
+<createdTime>2024-04-26 02:34:26 UTC</createdTime>
+<ownerDesignName>파일</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>40</dataTypeSize>
+<ownDataTypeParameters>40,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="7A416CC8-EF69-E19C-EC18-D244CA09642C" referredColumn="C40B2154-4CC8-B2AA-041C-F61FEDBF403F"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="C5506060-1010-2825-B2DC-0B1514946382" name="도서_PK">
+<createdBy>ITPS</createdBy>
+<createdTime>2024-04-26 02:29:25 UTC</createdTime>
+<ownerDesignName>파일</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="A0EEE630-E646-8CEB-74FA-BE5EA222BD85"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="63B07D5A-4033-B3C6-CFF3-FCC3E055538E" name="도서_출판사_FK">
+<createdBy>ITPS</createdBy>
+<createdTime>2024-04-26 02:33:52 UTC</createdTime>
+<ownerDesignName>파일</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="DB2F533C-6E72-634B-A6BC-A713DCB31FCE"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

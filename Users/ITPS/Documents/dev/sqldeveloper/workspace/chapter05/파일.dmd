@@ -1,0 +1,8 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<OSDM_Design class="oracle.dbtools.crest.model.design.Design" name="파일" id="21C54F7E-119D-0609-522F-70C66D16DF32" version="3.5">
+<createdBy>ITPS</createdBy>
+<createdTime>2024-04-26 02:18:49 UTC</createdTime>
+<ownerDesignName>파일</ownerDesignName>
+<capitalNames>false</capitalNames>
+<designId>21C54F7E-119D-0609-522F-70C66D16DF32</designId>
+</OSDM_Design>

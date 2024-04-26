@@ -1,0 +1,37 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="BB39AC60-F960-6E7E-672A-B3070DEEEAA1" name="artist">
+<createdBy>ITPS</createdBy>
+<createdTime>2024-04-26 06:49:21 UTC</createdTime>
+<ownerDesignName>파일</ownerDesignName>
+<ordsAlias>table_5</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="CD_title" id="91F2D300-B2D1-76D0-F135-BDFFDE39CA25">
+<createdBy>ITPS</createdBy>
+<createdTime>2024-04-26 06:49:34 UTC</createdTime>
+<ownerDesignName>파일</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="89408AF5-297A-A086-5BCD-B1EE0B06FEE5" referredColumn="72023A3B-6FD0-6AD3-4D8F-908896E3D594"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="184289CD-4E6B-10C4-8297-7E0BA33BA56C" name="artist_CD_FK">
+<createdBy>ITPS</createdBy>
+<createdTime>2024-04-26 06:49:31 UTC</createdTime>
+<ownerDesignName>파일</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="91F2D300-B2D1-76D0-F135-BDFFDE39CA25"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

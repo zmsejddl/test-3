@@ -1,0 +1,55 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<TableProxyOraclev12c class="oracle.dbtools.crest.model.design.storage.oracle.v12c.TableProxyOraclev12c" name="PROFESSOR" directorySegmentName="seg_0" id="E9DA6062-6A1A-9990-B248-94F88B51C6FB">
+<createdBy>ITPS</createdBy>
+<createdTime>2024-04-26 05:30:53 UTC</createdTime>
+<ownerDesignName>파일</ownerDesignName>
+<schemaObject>DE123061-E84B-EE1C-2E2D-10D0D1C239C1</schemaObject>
+<logging>YES</logging>
+<partitionedRowMovement>DISABLE</partitionedRowMovement>
+<segment>7AFA93FE-F44E-7E5D-7287-D5474809863A</segment>
+<tableSpace>4EFDD7D7-33E3-2B32-08B7-26EC5E194A5D</tableSpace>
+<temporaryChanged>false</temporaryChanged>
+<accessDriverType>oracle_loader</accessDriverType>
+<rejectLimit></rejectLimit>
+<inMemory>NO</inMemory>
+<columnProxies itemClass="oracle.dbtools.crest.model.design.storage.oracle.v12c.ColumnProxyOraclev12c">
+<ColumnProxy name="SPECIALITY" id="1B75DA66-47D6-7356-8CF3-B018A540722C">
+<createdBy>ITPS</createdBy>
+<createdTime>2024-04-26 05:30:54 UTC</createdTime>
+<ownerDesignName>파일</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="RANK" id="511AB710-9576-1519-BD52-07C66079FFF8">
+<createdBy>ITPS</createdBy>
+<createdTime>2024-04-26 05:30:54 UTC</createdTime>
+<ownerDesignName>파일</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="NAME" id="94CB8DEC-F191-1AD4-FA0B-99B5124E947D">
+<createdBy>ITPS</createdBy>
+<createdTime>2024-04-26 05:30:54 UTC</createdTime>
+<ownerDesignName>파일</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="SSN" id="AF41E079-C25A-1F2F-C09D-196026951791">
+<createdBy>ITPS</createdBy>
+<createdTime>2024-04-26 05:30:54 UTC</createdTime>
+<ownerDesignName>파일</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="AGE" id="B4EE7FF4-9922-F0B5-4605-D973C4AA17D8">
+<createdBy>ITPS</createdBy>
+<createdTime>2024-04-26 05:30:54 UTC</createdTime>
+<ownerDesignName>파일</ownerDesignName>
+</ColumnProxy>
+</columnProxies>
+<primaryKeys>
+<PrimaryKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.PKProxyOraclev10g" name="PROFESSOR_PK" id="4637B647-38FC-2E5B-CFEF-37D71624EBBC">
+<createdBy>ITPS</createdBy>
+<createdTime>2024-04-26 05:30:54 UTC</createdTime>
+<ownerDesignName>파일</ownerDesignName>
+<schemaObject>DE123061-E84B-EE1C-2E2D-10D0D1C239C1</schemaObject>
+<segment>A448894D-A431-65A1-2FA2-9B96F341F3D0</segment>
+<tableSpace>4EFDD7D7-33E3-2B32-08B7-26EC5E194A5D</tableSpace>
+<indexSegment>A448894D-A431-65A1-2FA2-9B96F341F3D0</indexSegment>
+<indexSort>SORTED</indexSort>
+<usingIndex>BY INDEX NAME</usingIndex>
+</PrimaryKey>
+</primaryKeys>
+</TableProxyOraclev12c>

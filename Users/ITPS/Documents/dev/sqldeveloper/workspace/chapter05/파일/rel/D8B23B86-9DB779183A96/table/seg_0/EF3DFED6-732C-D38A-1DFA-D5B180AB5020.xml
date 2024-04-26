@@ -1,0 +1,79 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="EF3DFED6-732C-D38A-1DFA-D5B180AB5020" name="hotel">
+<createdBy>ITPS</createdBy>
+<createdTime>2024-04-26 06:25:31 UTC</createdTime>
+<ownerDesignName>파일</ownerDesignName>
+<ordsAlias>table_1</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="name" id="9C483083-1FE2-8CC6-AC49-E9A9A6CC8C2D">
+<createdBy>ITPS</createdBy>
+<createdTime>2024-04-26 06:26:44 UTC</createdTime>
+<ownerDesignName>파일</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="address" id="6606BD61-F449-4141-4635-458E9202AF66">
+<createdBy>ITPS</createdBy>
+<createdTime>2024-04-26 06:26:44 UTC</createdTime>
+<ownerDesignName>파일</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="price" id="C1CBEFD7-CD05-0C1D-2CF8-58451A6D4FD7">
+<createdBy>ITPS</createdBy>
+<createdTime>2024-04-26 06:26:44 UTC</createdTime>
+<ownerDesignName>파일</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="num" id="7D58E2ED-1FB9-E02E-6FEC-A2AD3BE797B5">
+<createdBy>ITPS</createdBy>
+<createdTime>2024-04-26 06:26:44 UTC</createdTime>
+<ownerDesignName>파일</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="city" id="F8171F98-71CC-9F6F-AB3A-2021756DA566">
+<createdBy>ITPS</createdBy>
+<createdTime>2024-04-26 06:27:07 UTC</createdTime>
+<ownerDesignName>파일</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="1160B913-0483-A93E-4B29-457FE3AC5B6F" name="hotel_PK">
+<createdBy>ITPS</createdBy>
+<createdTime>2024-04-26 06:34:00 UTC</createdTime>
+<ownerDesignName>파일</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="9C483083-1FE2-8CC6-AC49-E9A9A6CC8C2D"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

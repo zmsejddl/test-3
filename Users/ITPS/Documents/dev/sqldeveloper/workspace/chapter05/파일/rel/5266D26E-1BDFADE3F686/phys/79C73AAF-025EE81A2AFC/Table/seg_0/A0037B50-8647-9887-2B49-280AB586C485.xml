@@ -1,0 +1,36 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<TableProxyOraclev12c class="oracle.dbtools.crest.model.design.storage.oracle.v12c.TableProxyOraclev12c" name="NewPublisher" directorySegmentName="seg_0" id="A0037B50-8647-9887-2B49-280AB586C485">
+<createdBy>ITPS</createdBy>
+<createdTime>2024-04-26 03:36:47 UTC</createdTime>
+<ownerDesignName>파일</ownerDesignName>
+<logging>YES</logging>
+<partitionedRowMovement>DISABLE</partitionedRowMovement>
+<temporaryChanged>false</temporaryChanged>
+<accessDriverType>oracle_loader</accessDriverType>
+<rejectLimit></rejectLimit>
+<columnProxies itemClass="oracle.dbtools.crest.model.design.storage.oracle.v12c.ColumnProxyOraclev12c">
+<ColumnProxy name="stname" id="4766C9FF-02BA-4457-057E-148FA4FD2D86">
+<createdBy>ITPS</createdBy>
+<createdTime>2024-04-26 03:36:47 UTC</createdTime>
+<ownerDesignName>파일</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="pubname" id="47FE46B7-A9E6-7E77-3DB6-2627770A5AC8">
+<createdBy>ITPS</createdBy>
+<createdTime>2024-04-26 03:36:47 UTC</createdTime>
+<ownerDesignName>파일</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="officephone" id="71C16B5E-265F-8970-DA92-D15D43FC0598">
+<createdBy>ITPS</createdBy>
+<createdTime>2024-04-26 03:36:47 UTC</createdTime>
+<ownerDesignName>파일</ownerDesignName>
+</ColumnProxy>
+</columnProxies>
+<primaryKeys>
+<PrimaryKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.PKProxyOraclev10g" name="NewPublisher_PK" id="30CDF1CA-BFBD-8C85-9C7C-A5C83B536B64">
+<createdBy>ITPS</createdBy>
+<createdTime>2024-04-26 03:36:47 UTC</createdTime>
+<ownerDesignName>파일</ownerDesignName>
+<indexSort>SORTED</indexSort>
+</PrimaryKey>
+</primaryKeys>
+</TableProxyOraclev12c>

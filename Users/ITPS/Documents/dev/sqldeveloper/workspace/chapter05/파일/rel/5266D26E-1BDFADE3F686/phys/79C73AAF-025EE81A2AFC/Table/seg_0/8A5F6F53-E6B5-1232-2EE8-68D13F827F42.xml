@@ -1,0 +1,50 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<TableProxyOraclev12c class="oracle.dbtools.crest.model.design.storage.oracle.v12c.TableProxyOraclev12c" name="CUSTOMER" directorySegmentName="seg_0" id="8A5F6F53-E6B5-1232-2EE8-68D13F827F42">
+<createdBy>ITPS</createdBy>
+<createdTime>2024-04-26 03:38:27 UTC</createdTime>
+<ownerDesignName>파일</ownerDesignName>
+<schemaObject>EA7229EE-7866-3723-9A62-76C972CAF243</schemaObject>
+<logging>YES</logging>
+<partitionedRowMovement>DISABLE</partitionedRowMovement>
+<segment>3C260D1E-71CC-8486-1015-4FDC36DF7381</segment>
+<tableSpace>2B41C5AD-097E-E47C-7494-003355137C52</tableSpace>
+<temporaryChanged>false</temporaryChanged>
+<accessDriverType>oracle_loader</accessDriverType>
+<rejectLimit></rejectLimit>
+<inMemory>NO</inMemory>
+<columnProxies itemClass="oracle.dbtools.crest.model.design.storage.oracle.v12c.ColumnProxyOraclev12c">
+<ColumnProxy name="PHONE" id="3E35E54B-565B-74FE-4D08-A6712EE58EC7">
+<createdBy>ITPS</createdBy>
+<createdTime>2024-04-26 03:38:27 UTC</createdTime>
+<ownerDesignName>파일</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="CUSTID" id="72E5D635-6071-74E6-E117-9964A510A3C8">
+<createdBy>ITPS</createdBy>
+<createdTime>2024-04-26 03:38:27 UTC</createdTime>
+<ownerDesignName>파일</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="ADDRESS" id="79284675-4E59-045D-27D6-CFE16678CCBF">
+<createdBy>ITPS</createdBy>
+<createdTime>2024-04-26 03:38:27 UTC</createdTime>
+<ownerDesignName>파일</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="NAME" id="8AA29F38-2BC2-7F7C-AF0F-947DF9599AEB">
+<createdBy>ITPS</createdBy>
+<createdTime>2024-04-26 03:38:27 UTC</createdTime>
+<ownerDesignName>파일</ownerDesignName>
+</ColumnProxy>
+</columnProxies>
+<primaryKeys>
+<PrimaryKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.PKProxyOraclev10g" name="CUSTOMER_PK" id="2FE047B8-F873-E06B-40C7-86CF43676569">
+<createdBy>ITPS</createdBy>
+<createdTime>2024-04-26 03:38:27 UTC</createdTime>
+<ownerDesignName>파일</ownerDesignName>
+<schemaObject>EA7229EE-7866-3723-9A62-76C972CAF243</schemaObject>
+<segment>615FC0CA-6FB9-C7D1-448E-3B9BB7DCB418</segment>
+<tableSpace>2B41C5AD-097E-E47C-7494-003355137C52</tableSpace>
+<indexSegment>615FC0CA-6FB9-C7D1-448E-3B9BB7DCB418</indexSegment>
+<indexSort>SORTED</indexSort>
+<usingIndex>BY INDEX NAME</usingIndex>
+</PrimaryKey>
+</primaryKeys>
+</TableProxyOraclev12c>

@@ -1,0 +1,104 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="B7A562BC-C08C-AC39-3CDC-3D9606423CD8" schemaObject="EA7229EE-7866-3723-9A62-76C972CAF243" name="BOOK">
+<sourceConnName>Madang</sourceConnName>
+<sourceObjSchema>C##MADANG</sourceObjSchema>
+<sourceObjName>BOOK</sourceObjName>
+<createdBy>ITPS</createdBy>
+<createdTime>2024-04-26 03:37:17 UTC</createdTime>
+<ownerDesignName>파일</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="BOOKID" id="BEDCD3C5-E495-4202-2C7C-28DDFF258220">
+<sourceConnName>Madang</sourceConnName>
+<sourceObjSchema>BOOK</sourceObjSchema>
+<sourceObjName>BOOKID</sourceObjName>
+<createdBy>ITPS</createdBy>
+<createdTime>2024-04-26 03:37:17 UTC</createdTime>
+<ownerDesignName>파일</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>2</dataTypePrecision>
+<dataTypeScale>0</dataTypeScale>
+<ownDataTypeParameters>,2,0</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="BOOKNAME" id="5477C19F-2D4B-3EF5-8FDE-4A0A552D916D">
+<sourceConnName>Madang</sourceConnName>
+<sourceObjSchema>BOOK</sourceObjSchema>
+<sourceObjName>BOOKNAME</sourceObjName>
+<createdBy>ITPS</createdBy>
+<createdTime>2024-04-26 03:37:17 UTC</createdTime>
+<ownerDesignName>파일</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>40 BYTE</dataTypeSize>
+<ownDataTypeParameters>40 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="PUBLISHER" id="292E841C-9EA5-A383-D916-BA2FCB334B1C">
+<sourceConnName>Madang</sourceConnName>
+<sourceObjSchema>BOOK</sourceObjSchema>
+<sourceObjName>PUBLISHER</sourceObjName>
+<createdBy>ITPS</createdBy>
+<createdTime>2024-04-26 03:37:17 UTC</createdTime>
+<ownerDesignName>파일</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>40 BYTE</dataTypeSize>
+<ownDataTypeParameters>40 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="PRICE" id="8A795BD1-7EAA-25BB-5272-283D7DF2B18D">
+<sourceConnName>Madang</sourceConnName>
+<sourceObjSchema>BOOK</sourceObjSchema>
+<sourceObjName>PRICE</sourceObjName>
+<createdBy>ITPS</createdBy>
+<createdTime>2024-04-26 03:37:17 UTC</createdTime>
+<ownerDesignName>파일</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>8</dataTypePrecision>
+<dataTypeScale>0</dataTypeScale>
+<ownDataTypeParameters>,8,0</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="83D27675-F286-BA21-39CA-E40D35A6DC90" schemaObject="EA7229EE-7866-3723-9A62-76C972CAF243" name="BOOK_PK">
+<sourceConnName>Madang</sourceConnName>
+<sourceObjSchema>C##MADANG</sourceObjSchema>
+<sourceObjName>SYS_C007299</sourceObjName>
+<createdBy>ITPS</createdBy>
+<createdTime>2024-04-26 03:37:17 UTC</createdTime>
+<ownerDesignName>파일</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="BEDCD3C5-E495-4202-2C7C-28DDFF258220"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="13CF7A5C-F633-DEDA-9587-4E18EA5F755B" schemaObject="EA7229EE-7866-3723-9A62-76C972CAF243" name="IX_BOOK2">
+<sourceConnName>Madang</sourceConnName>
+<sourceObjSchema>C##MADANG</sourceObjSchema>
+<sourceObjName>IX_BOOK2</sourceObjName>
+<createdBy>ITPS</createdBy>
+<createdTime>2024-04-26 03:37:17 UTC</createdTime>
+<ownerDesignName>파일</ownerDesignName>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="292E841C-9EA5-A383-D916-BA2FCB334B1C"/>
+<colUsage columnID="8A795BD1-7EAA-25BB-5272-283D7DF2B18D"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

@@ -1,0 +1,100 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="10EA436B-4A54-E489-86CF-E7FC4B6E1E48" schemaObject="DE123061-E84B-EE1C-2E2D-10D0D1C239C1" name="DEPT1">
+<sourceConnName>Madang</sourceConnName>
+<sourceObjSchema>C##MADANG</sourceObjSchema>
+<sourceObjName>DEPT1</sourceObjName>
+<createdBy>ITPS</createdBy>
+<createdTime>2024-04-26 05:40:55 UTC</createdTime>
+<ownerDesignName>파일</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="DNO" id="48970045-9B3C-0DAF-4527-C927BF08B020">
+<sourceConnName>Madang</sourceConnName>
+<sourceObjSchema>DEPT1</sourceObjSchema>
+<sourceObjName>DNO</sourceObjName>
+<createdBy>ITPS</createdBy>
+<createdTime>2024-04-26 05:40:55 UTC</createdTime>
+<ownerDesignName>파일</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="DNAME" id="631DE1B2-5513-F7EA-31A8-7E80FFC935E1">
+<sourceConnName>Madang</sourceConnName>
+<sourceObjSchema>DEPT1</sourceObjSchema>
+<sourceObjName>DNAME</sourceObjName>
+<createdBy>ITPS</createdBy>
+<createdTime>2024-04-26 05:40:55 UTC</createdTime>
+<ownerDesignName>파일</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>40 BYTE</dataTypeSize>
+<ownDataTypeParameters>40 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="OFFICE" id="667ED724-A571-6893-5832-60532E30B09D">
+<sourceConnName>Madang</sourceConnName>
+<sourceObjSchema>DEPT1</sourceObjSchema>
+<sourceObjName>OFFICE</sourceObjName>
+<createdBy>ITPS</createdBy>
+<createdTime>2024-04-26 05:40:55 UTC</createdTime>
+<ownerDesignName>파일</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100 BYTE</dataTypeSize>
+<ownDataTypeParameters>100 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="RUNPROFESSORSSN" id="8C16BB98-3B36-CE8D-A7E9-9C512EF303BC">
+<sourceConnName>Madang</sourceConnName>
+<sourceObjSchema>DEPT1</sourceObjSchema>
+<sourceObjName>RUNPROFESSORSSN</sourceObjName>
+<createdBy>ITPS</createdBy>
+<createdTime>2024-04-26 05:40:55 UTC</createdTime>
+<ownerDesignName>파일</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="9BFE3CE3-CCAE-B73D-1E20-6DA44EA758CC" referredColumn="AF41E079-C25A-1F2F-C09D-196026951791"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="4B7A14B3-B1B5-C5FC-723B-67D9C991D5D2" schemaObject="DE123061-E84B-EE1C-2E2D-10D0D1C239C1" name="DEPT1_PK">
+<sourceConnName>Madang</sourceConnName>
+<sourceObjSchema>C##MADANG</sourceObjSchema>
+<sourceObjName>SYS_C007517</sourceObjName>
+<createdBy>ITPS</createdBy>
+<createdTime>2024-04-26 05:40:55 UTC</createdTime>
+<ownerDesignName>파일</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="48970045-9B3C-0DAF-4527-C927BF08B020"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="D2D4078A-6E1F-9FE3-9320-ECCC705FF736" name="SYS_C007518">
+<createdBy>ITPS</createdBy>
+<createdTime>2024-04-26 05:40:55 UTC</createdTime>
+<ownerDesignName>파일</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="8C16BB98-3B36-CE8D-A7E9-9C512EF303BC"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

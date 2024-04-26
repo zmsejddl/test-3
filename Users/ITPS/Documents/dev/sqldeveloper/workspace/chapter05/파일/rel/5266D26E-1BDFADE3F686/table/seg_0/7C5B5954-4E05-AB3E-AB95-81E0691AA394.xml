@@ -1,0 +1,104 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="7C5B5954-4E05-AB3E-AB95-81E0691AA394" name="NewOrder">
+<createdBy>ITPS</createdBy>
+<createdTime>2024-04-26 03:22:00 UTC</createdTime>
+<ownerDesignName>파일</ownerDesignName>
+<ordsAlias>table_3</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="orderid" id="D107BC85-65CF-316C-E9E5-A3403D2754F4">
+<createdBy>ITPS</createdBy>
+<createdTime>2024-04-26 03:22:30 UTC</createdTime>
+<ownerDesignName>파일</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="orderdate" id="1E264F8F-6E0F-234A-0BA4-B878B0F8FC2E">
+<createdBy>ITPS</createdBy>
+<createdTime>2024-04-26 03:22:30 UTC</createdTime>
+<ownerDesignName>파일</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="saleprice" id="9F04D1AA-32B8-B7CD-F7DE-9727FBDF4F2D">
+<createdBy>ITPS</createdBy>
+<createdTime>2024-04-26 03:22:30 UTC</createdTime>
+<ownerDesignName>파일</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="NewBook_bookid" id="E243A2AD-B124-A03D-9DFD-F9BA91FC15BC">
+<createdBy>ITPS</createdBy>
+<createdTime>2024-04-26 03:22:39 UTC</createdTime>
+<ownerDesignName>파일</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="F1904B87-98D1-CB9A-54D9-717417B4F455" referredColumn="81280BF0-6793-CB9E-6EB4-75F630A1EF51"/>
+</associations>
+</Column>
+<Column name="NewCustomer_custid" id="E775D8AF-7806-91FB-8851-1A17CAB82795">
+<createdBy>ITPS</createdBy>
+<createdTime>2024-04-26 03:23:15 UTC</createdTime>
+<ownerDesignName>파일</ownerDesignName>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="28DB9A99-AF81-4867-9133-B83C81F69E75" referredColumn="ADAE65D5-D9CE-1C96-D512-36DBB398425B"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="579FB0CD-73F8-D873-B2BE-F7529FA01BE6" name="NewOrder_PK">
+<createdBy>ITPS</createdBy>
+<createdTime>2024-04-26 03:22:30 UTC</createdTime>
+<ownerDesignName>파일</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="D107BC85-65CF-316C-E9E5-A3403D2754F4"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="600EB126-E960-AEDC-17F4-72B112047C6B" name="NewOrder_NewBook_FK">
+<createdBy>ITPS</createdBy>
+<createdTime>2024-04-26 03:22:39 UTC</createdTime>
+<ownerDesignName>파일</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="E243A2AD-B124-A03D-9DFD-F9BA91FC15BC"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="C53CD47C-5EE1-041E-83A0-E40EDD85B4DB" name="NewOrder_NewCustomer_FK">
+<createdBy>ITPS</createdBy>
+<createdTime>2024-04-26 03:23:15 UTC</createdTime>
+<ownerDesignName>파일</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="E775D8AF-7806-91FB-8851-1A17CAB82795"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

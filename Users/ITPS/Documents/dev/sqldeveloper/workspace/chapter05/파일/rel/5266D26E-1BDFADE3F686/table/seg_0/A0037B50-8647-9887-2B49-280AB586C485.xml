@@ -1,0 +1,60 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="A0037B50-8647-9887-2B49-280AB586C485" name="NewPublisher">
+<createdBy>ITPS</createdBy>
+<createdTime>2024-04-26 03:19:14 UTC</createdTime>
+<ownerDesignName>파일</ownerDesignName>
+<ordsAlias>table_1</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="pubname" id="47FE46B7-A9E6-7E77-3DB6-2627770A5AC8">
+<createdBy>ITPS</createdBy>
+<createdTime>2024-04-26 03:20:06 UTC</createdTime>
+<ownerDesignName>파일</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>40</dataTypeSize>
+<ownDataTypeParameters>40,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="stname" id="4766C9FF-02BA-4457-057E-148FA4FD2D86">
+<createdBy>ITPS</createdBy>
+<createdTime>2024-04-26 03:20:06 UTC</createdTime>
+<ownerDesignName>파일</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>40</dataTypeSize>
+<ownDataTypeParameters>40,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="officephone" id="71C16B5E-265F-8970-DA92-D15D43FC0598">
+<createdBy>ITPS</createdBy>
+<createdTime>2024-04-26 03:20:06 UTC</createdTime>
+<ownerDesignName>파일</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100</dataTypeSize>
+<ownDataTypeParameters>100,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="30CDF1CA-BFBD-8C85-9C7C-A5C83B536B64" name="NewPublisher_PK">
+<createdBy>ITPS</createdBy>
+<createdTime>2024-04-26 03:20:06 UTC</createdTime>
+<ownerDesignName>파일</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="47FE46B7-A9E6-7E77-3DB6-2627770A5AC8"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

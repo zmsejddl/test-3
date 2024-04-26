@@ -1,0 +1,51 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="35403BBF-D4C9-6BBC-A70C-77EAA6866C25" name="customer">
+<createdBy>ITPS</createdBy>
+<createdTime>2024-04-26 06:27:10 UTC</createdTime>
+<ownerDesignName>파일</ownerDesignName>
+<ordsAlias>table_2</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="name" id="4AD2C8B4-5490-B29F-1E7F-CB71F0FD86E6">
+<createdBy>ITPS</createdBy>
+<createdTime>2024-04-26 06:27:38 UTC</createdTime>
+<ownerDesignName>파일</ownerDesignName>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="address" id="E196B378-600D-59DD-3905-A71C997484FF">
+<createdBy>ITPS</createdBy>
+<createdTime>2024-04-26 06:27:38 UTC</createdTime>
+<ownerDesignName>파일</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="phone" id="D17DEE4C-9C75-C5C9-C1D9-4BB0B7232412">
+<createdBy>ITPS</createdBy>
+<createdTime>2024-04-26 06:27:38 UTC</createdTime>
+<ownerDesignName>파일</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="04B1E14B-049E-4AC1-4503-A81076A387F5" name="customer_PK">
+<createdBy>ITPS</createdBy>
+<createdTime>2024-04-26 06:34:23 UTC</createdTime>
+<ownerDesignName>파일</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="4AD2C8B4-5490-B29F-1E7F-CB71F0FD86E6"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

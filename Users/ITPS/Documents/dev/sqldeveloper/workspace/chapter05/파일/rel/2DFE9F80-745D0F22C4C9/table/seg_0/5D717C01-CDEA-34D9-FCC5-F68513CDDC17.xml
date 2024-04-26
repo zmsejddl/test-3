@@ -1,0 +1,129 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="5D717C01-CDEA-34D9-FCC5-F68513CDDC17" schemaObject="DE123061-E84B-EE1C-2E2D-10D0D1C239C1" name="PROJECT">
+<sourceConnName>Madang</sourceConnName>
+<sourceObjSchema>C##MADANG</sourceObjSchema>
+<sourceObjName>PROJECT</sourceObjName>
+<createdBy>ITPS</createdBy>
+<createdTime>2024-04-26 05:42:12 UTC</createdTime>
+<ownerDesignName>파일</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="PID" id="C36B4282-8C98-F812-A166-B86B04BEB291">
+<sourceConnName>Madang</sourceConnName>
+<sourceObjSchema>PROJECT</sourceObjSchema>
+<sourceObjName>PID</sourceObjName>
+<createdBy>ITPS</createdBy>
+<createdTime>2024-04-26 05:42:12 UTC</createdTime>
+<ownerDesignName>파일</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="SPONSOR" id="6D783D08-85B4-CF73-CC89-B1D3718AA1CA">
+<sourceConnName>Madang</sourceConnName>
+<sourceObjSchema>PROJECT</sourceObjSchema>
+<sourceObjName>SPONSOR</sourceObjName>
+<createdBy>ITPS</createdBy>
+<createdTime>2024-04-26 05:42:12 UTC</createdTime>
+<ownerDesignName>파일</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50 BYTE</dataTypeSize>
+<ownDataTypeParameters>50 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="START_DATE" id="F4C4D408-B117-BB26-8B59-D192F99CD1A1">
+<sourceConnName>Madang</sourceConnName>
+<sourceObjSchema>PROJECT</sourceObjSchema>
+<sourceObjName>START_DATE</sourceObjName>
+<createdBy>ITPS</createdBy>
+<createdTime>2024-04-26 05:42:12 UTC</createdTime>
+<ownerDesignName>파일</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<dataTypeSize>7</dataTypeSize>
+<ownDataTypeParameters>7,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="END_DATE" id="66A46CAF-E124-4D49-BB64-63DF3E91CCF6">
+<sourceConnName>Madang</sourceConnName>
+<sourceObjSchema>PROJECT</sourceObjSchema>
+<sourceObjName>END_DATE</sourceObjName>
+<createdBy>ITPS</createdBy>
+<createdTime>2024-04-26 05:42:12 UTC</createdTime>
+<ownerDesignName>파일</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<dataTypeSize>7</dataTypeSize>
+<ownDataTypeParameters>7,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="BUDGET" id="458931D2-7DC7-B55C-BDE4-5151FB6451CE">
+<sourceConnName>Madang</sourceConnName>
+<sourceObjSchema>PROJECT</sourceObjSchema>
+<sourceObjName>BUDGET</sourceObjName>
+<createdBy>ITPS</createdBy>
+<createdTime>2024-04-26 05:42:12 UTC</createdTime>
+<ownerDesignName>파일</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="MANAGESSN" id="1AC13824-E249-7718-C68E-73C6ED47BC13">
+<sourceConnName>Madang</sourceConnName>
+<sourceObjSchema>PROJECT</sourceObjSchema>
+<sourceObjName>MANAGESSN</sourceObjName>
+<createdBy>ITPS</createdBy>
+<createdTime>2024-04-26 05:42:12 UTC</createdTime>
+<ownerDesignName>파일</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="1E1C56F7-A8EE-0534-CB99-FC959FF466AB" referredColumn="AF41E079-C25A-1F2F-C09D-196026951791"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="7F4C860F-7E62-5E16-991F-AED7186AA972" schemaObject="DE123061-E84B-EE1C-2E2D-10D0D1C239C1" name="PROJECT_PK">
+<sourceConnName>Madang</sourceConnName>
+<sourceObjSchema>C##MADANG</sourceObjSchema>
+<sourceObjName>SYS_C007522</sourceObjName>
+<createdBy>ITPS</createdBy>
+<createdTime>2024-04-26 05:42:12 UTC</createdTime>
+<ownerDesignName>파일</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="C36B4282-8C98-F812-A166-B86B04BEB291"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="5CBDD1BD-4F21-A54C-9EAD-F7409BD7C210" name="SYS_C007523">
+<createdBy>ITPS</createdBy>
+<createdTime>2024-04-26 05:42:12 UTC</createdTime>
+<ownerDesignName>파일</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="1AC13824-E249-7718-C68E-73C6ED47BC13"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

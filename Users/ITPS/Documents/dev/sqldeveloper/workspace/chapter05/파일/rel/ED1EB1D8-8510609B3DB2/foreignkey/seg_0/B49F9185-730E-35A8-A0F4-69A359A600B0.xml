@@ -1,0 +1,16 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="B49F9185-730E-35A8-A0F4-69A359A600B0" containerWithKeyObject="3ACB2F2C-3635-BF0A-6CB8-3C9608F734F3" localFKIndex="A583FC23-32C2-E2E1-8F6E-859FEC29025C" name="play_part_FK">
+<createdBy>ITPS</createdBy>
+<createdTime>2024-04-26 06:23:59 UTC</createdTime>
+<ownerDesignName>파일</ownerDesignName>
+<referredTableLongName>part</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>4DBF0AF8-C043-69D2-220F-FEEB0C15D9B2</referredTableID>
+<keyObject>F97F3777-9186-81B4-2E70-CE1895769251</keyObject>
+<referredKeyID>F97F3777-9186-81B4-2E70-CE1895769251</referredKeyID>
+<mandatory>false</mandatory>
+<refColNames>id</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

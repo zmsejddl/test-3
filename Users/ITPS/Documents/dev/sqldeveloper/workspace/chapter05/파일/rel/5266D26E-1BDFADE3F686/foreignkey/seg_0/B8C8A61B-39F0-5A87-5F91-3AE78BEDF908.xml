@@ -1,0 +1,16 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="B8C8A61B-39F0-5A87-5F91-3AE78BEDF908" containerWithKeyObject="5D56A8CF-CD4C-5663-5CCE-5F7F49DF10F5" localFKIndex="1F75BC34-D30A-D2BF-0370-8937AB341D0A" name="NewBook_NewPublisher_FK">
+<createdBy>ITPS</createdBy>
+<createdTime>2024-04-26 03:21:33 UTC</createdTime>
+<ownerDesignName>파일</ownerDesignName>
+<referredTableLongName>NewPublisher</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>A0037B50-8647-9887-2B49-280AB586C485</referredTableID>
+<keyObject>30CDF1CA-BFBD-8C85-9C7C-A5C83B536B64</keyObject>
+<referredKeyID>30CDF1CA-BFBD-8C85-9C7C-A5C83B536B64</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>pubname</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

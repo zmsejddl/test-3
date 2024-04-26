@@ -1,0 +1,71 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="58A71418-C755-D4D0-BADC-456E903063E4" name="car">
+<createdBy>ITPS</createdBy>
+<createdTime>2024-04-26 06:13:33 UTC</createdTime>
+<ownerDesignName>파일</ownerDesignName>
+<ordsAlias>table_9</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="brand" id="435F196E-91F4-EB1A-E449-B255DB117B63">
+<createdBy>ITPS</createdBy>
+<createdTime>2024-04-26 06:13:54 UTC</createdTime>
+<ownerDesignName>파일</ownerDesignName>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="company_id" id="4CD42F98-89D9-5159-86CC-F7B187D7F7EF">
+<createdBy>ITPS</createdBy>
+<createdTime>2024-04-26 06:17:49 UTC</createdTime>
+<ownerDesignName>파일</ownerDesignName>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="F02DEEC7-D4C7-1A5B-A1BF-E0BF123BF1B4" referredColumn="829B5F5D-3A3D-30DF-C367-BFECAF6EC484"/>
+</associations>
+</Column>
+<Column name="company_name" id="B8B3EAC4-C7D1-3027-52D4-D9F2DEC553D6">
+<createdBy>ITPS</createdBy>
+<createdTime>2024-04-26 06:17:49 UTC</createdTime>
+<ownerDesignName>파일</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="F02DEEC7-D4C7-1A5B-A1BF-E0BF123BF1B4" referredColumn="8A77EF0D-ACC4-BFA7-07C1-A4E0C44E1A9E"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="FB5518A9-25EF-C474-3CE1-D4EE6E5E2567" name="car_PK">
+<createdBy>ITPS</createdBy>
+<createdTime>2024-04-26 06:13:54 UTC</createdTime>
+<ownerDesignName>파일</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="435F196E-91F4-EB1A-E449-B255DB117B63"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="6CDFC382-C6D5-B383-C6E7-8BE5A7A47F94" name="car_company_FK">
+<createdBy>ITPS</createdBy>
+<createdTime>2024-04-26 06:17:25 UTC</createdTime>
+<ownerDesignName>파일</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="4CD42F98-89D9-5159-86CC-F7B187D7F7EF"/>
+<colUsage columnID="B8B3EAC4-C7D1-3027-52D4-D9F2DEC553D6"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

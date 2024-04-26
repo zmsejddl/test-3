@@ -1,0 +1,102 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="E9DA6062-6A1A-9990-B248-94F88B51C6FB" schemaObject="DE123061-E84B-EE1C-2E2D-10D0D1C239C1" name="PROFESSOR">
+<sourceConnName>Madang</sourceConnName>
+<sourceObjSchema>C##MADANG</sourceObjSchema>
+<sourceObjName>PROFESSOR</sourceObjName>
+<createdBy>ITPS</createdBy>
+<createdTime>2024-04-26 05:30:53 UTC</createdTime>
+<ownerDesignName>파일</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="SSN" id="AF41E079-C25A-1F2F-C09D-196026951791">
+<sourceConnName>Madang</sourceConnName>
+<sourceObjSchema>PROFESSOR</sourceObjSchema>
+<sourceObjName>SSN</sourceObjName>
+<createdBy>ITPS</createdBy>
+<createdTime>2024-04-26 05:30:54 UTC</createdTime>
+<ownerDesignName>파일</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="NAME" id="94CB8DEC-F191-1AD4-FA0B-99B5124E947D">
+<sourceConnName>Madang</sourceConnName>
+<sourceObjSchema>PROFESSOR</sourceObjSchema>
+<sourceObjName>NAME</sourceObjName>
+<createdBy>ITPS</createdBy>
+<createdTime>2024-04-26 05:30:54 UTC</createdTime>
+<ownerDesignName>파일</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>40 BYTE</dataTypeSize>
+<ownDataTypeParameters>40 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="AGE" id="B4EE7FF4-9922-F0B5-4605-D973C4AA17D8">
+<sourceConnName>Madang</sourceConnName>
+<sourceObjSchema>PROFESSOR</sourceObjSchema>
+<sourceObjName>AGE</sourceObjName>
+<createdBy>ITPS</createdBy>
+<createdTime>2024-04-26 05:30:54 UTC</createdTime>
+<ownerDesignName>파일</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="RANK" id="511AB710-9576-1519-BD52-07C66079FFF8">
+<sourceConnName>Madang</sourceConnName>
+<sourceObjSchema>PROFESSOR</sourceObjSchema>
+<sourceObjName>RANK</sourceObjName>
+<createdBy>ITPS</createdBy>
+<createdTime>2024-04-26 05:30:54 UTC</createdTime>
+<ownerDesignName>파일</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>40 BYTE</dataTypeSize>
+<ownDataTypeParameters>40 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="SPECIALITY" id="1B75DA66-47D6-7356-8CF3-B018A540722C">
+<sourceConnName>Madang</sourceConnName>
+<sourceObjSchema>PROFESSOR</sourceObjSchema>
+<sourceObjName>SPECIALITY</sourceObjName>
+<createdBy>ITPS</createdBy>
+<createdTime>2024-04-26 05:30:54 UTC</createdTime>
+<ownerDesignName>파일</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100 BYTE</dataTypeSize>
+<ownDataTypeParameters>100 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="4637B647-38FC-2E5B-CFEF-37D71624EBBC" schemaObject="DE123061-E84B-EE1C-2E2D-10D0D1C239C1" name="PROFESSOR_PK">
+<sourceConnName>Madang</sourceConnName>
+<sourceObjSchema>C##MADANG</sourceObjSchema>
+<sourceObjName>SYS_C007516</sourceObjName>
+<createdBy>ITPS</createdBy>
+<createdTime>2024-04-26 05:30:54 UTC</createdTime>
+<ownerDesignName>파일</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="AF41E079-C25A-1F2F-C09D-196026951791"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

@@ -1,0 +1,44 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<TableProxyOraclev12c class="oracle.dbtools.crest.model.design.storage.oracle.v12c.TableProxyOraclev12c" name="WORK_DEPT" directorySegmentName="seg_0" id="AE0A2E3B-4B8B-DFF2-C065-78F5B74983D4">
+<createdBy>ITPS</createdBy>
+<createdTime>2024-04-26 05:49:44 UTC</createdTime>
+<ownerDesignName>파일</ownerDesignName>
+<schemaObject>DE123061-E84B-EE1C-2E2D-10D0D1C239C1</schemaObject>
+<logging>YES</logging>
+<partitionedRowMovement>DISABLE</partitionedRowMovement>
+<segment>7AFA93FE-F44E-7E5D-7287-D5474809863A</segment>
+<tableSpace>4EFDD7D7-33E3-2B32-08B7-26EC5E194A5D</tableSpace>
+<temporaryChanged>false</temporaryChanged>
+<accessDriverType>oracle_loader</accessDriverType>
+<rejectLimit></rejectLimit>
+<inMemory>NO</inMemory>
+<columnProxies itemClass="oracle.dbtools.crest.model.design.storage.oracle.v12c.ColumnProxyOraclev12c">
+<ColumnProxy name="PCT_TIME" id="40B8594D-6255-741E-DC5A-22E292DB36A7">
+<createdBy>ITPS</createdBy>
+<createdTime>2024-04-26 05:49:44 UTC</createdTime>
+<ownerDesignName>파일</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="PROFESSORSSN" id="B809C534-51F2-1D14-6DFB-D0ABCB12D23C">
+<createdBy>ITPS</createdBy>
+<createdTime>2024-04-26 05:49:44 UTC</createdTime>
+<ownerDesignName>파일</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="DNO" id="CAC69408-2D3E-F975-4F72-1DAB6E35B06B">
+<createdBy>ITPS</createdBy>
+<createdTime>2024-04-26 05:49:44 UTC</createdTime>
+<ownerDesignName>파일</ownerDesignName>
+</ColumnProxy>
+</columnProxies>
+<foreignKeys>
+<ForeignKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.FKProxyOraclev10g" name="SYS_C007524" id="45093569-4A57-7828-F788-280E34C56F75">
+<createdBy>ITPS</createdBy>
+<createdTime>2024-04-26 05:49:45 UTC</createdTime>
+<ownerDesignName>파일</ownerDesignName>
+</ForeignKey>
+<ForeignKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.FKProxyOraclev10g" name="SYS_C007525" id="E4C2D12E-0583-A388-E2E8-75F38B36026E">
+<createdBy>ITPS</createdBy>
+<createdTime>2024-04-26 05:49:45 UTC</createdTime>
+<ownerDesignName>파일</ownerDesignName>
+</ForeignKey>
+</foreignKeys>
+</TableProxyOraclev12c>

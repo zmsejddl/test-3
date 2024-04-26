@@ -1,0 +1,108 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="AE551253-4189-6C66-E56D-A80204DD6F43" name="reservation">
+<createdBy>ITPS</createdBy>
+<createdTime>2024-04-26 06:31:59 UTC</createdTime>
+<ownerDesignName>파일</ownerDesignName>
+<ordsAlias>table_4</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="thenumberofcustomer" id="7D2354D3-2686-95CC-7CE3-364DBC274169">
+<createdBy>ITPS</createdBy>
+<createdTime>2024-04-26 06:33:02 UTC</createdTime>
+<ownerDesignName>파일</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="resdate" id="D89E7DAF-D5B4-AA97-CC34-B4B15ADC5578">
+<createdBy>ITPS</createdBy>
+<createdTime>2024-04-26 06:33:02 UTC</createdTime>
+<ownerDesignName>파일</ownerDesignName>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="startdate" id="57EE49DA-396C-C223-CACA-97D8A2694D45">
+<createdBy>ITPS</createdBy>
+<createdTime>2024-04-26 06:33:02 UTC</createdTime>
+<ownerDesignName>파일</ownerDesignName>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="checkdate" id="2169925D-6107-AD98-AF4F-D94848255C79">
+<createdBy>ITPS</createdBy>
+<createdTime>2024-04-26 06:33:02 UTC</createdTime>
+<ownerDesignName>파일</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="hotel_name" id="8D18C30F-2582-0F5A-B6E9-E2BF02E76713">
+<createdBy>ITPS</createdBy>
+<createdTime>2024-04-26 06:34:29 UTC</createdTime>
+<ownerDesignName>파일</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="7DE2F595-864D-DE4C-9FB9-886A73320E3B" referredColumn="9C483083-1FE2-8CC6-AC49-E9A9A6CC8C2D"/>
+</associations>
+</Column>
+<Column name="customer_name" id="3BD17059-D658-A3BE-9AF9-26CD30EC8D37">
+<createdBy>ITPS</createdBy>
+<createdTime>2024-04-26 06:35:03 UTC</createdTime>
+<ownerDesignName>파일</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="5AF6AC59-C079-4A79-B966-52874BCFEAD2" referredColumn="4AD2C8B4-5490-B29F-1E7F-CB71F0FD86E6"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="92AAA7FA-6B35-FFA3-FDF4-C00A38A9CCF7" name="reservation_PK">
+<createdBy>ITPS</createdBy>
+<createdTime>2024-04-26 06:35:28 UTC</createdTime>
+<ownerDesignName>파일</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="D89E7DAF-D5B4-AA97-CC34-B4B15ADC5578"/>
+<colUsage columnID="57EE49DA-396C-C223-CACA-97D8A2694D45"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="04DB1618-C4D3-8B87-02DA-71355B994AC2" name="reservation_hotel_FK">
+<createdBy>ITPS</createdBy>
+<createdTime>2024-04-26 06:34:26 UTC</createdTime>
+<ownerDesignName>파일</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="8D18C30F-2582-0F5A-B6E9-E2BF02E76713"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="86EF95CF-CE9B-5AF5-023B-BE6E4F5AB71F" name="reservation_customer_FK">
+<createdBy>ITPS</createdBy>
+<createdTime>2024-04-26 06:34:56 UTC</createdTime>
+<ownerDesignName>파일</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="3BD17059-D658-A3BE-9AF9-26CD30EC8D37"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

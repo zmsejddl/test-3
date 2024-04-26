@@ -1,0 +1,16 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="2150A08D-EDC0-3D37-D75D-A671BDFE4935" containerWithKeyObject="03118412-C2C9-8F25-9774-6E7881FF27B7" localFKIndex="91A1FBB0-DE60-134F-A315-C0027D3C836D" name="CD_tracklist_FK">
+<createdBy>ITPS</createdBy>
+<createdTime>2024-04-26 06:50:46 UTC</createdTime>
+<ownerDesignName>파일</ownerDesignName>
+<referredTableLongName>tracklist</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>CCF060DD-E54F-9FE6-6A0A-885E5F68FADE</referredTableID>
+<keyObject>7AD4BBE9-71E4-9F65-58C3-8FE696FBC714</keyObject>
+<referredKeyID>7AD4BBE9-71E4-9F65-58C3-8FE696FBC714</referredKeyID>
+<mandatory>false</mandatory>
+<refColNames>track_title</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

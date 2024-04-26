@@ -1,0 +1,104 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="F6D2AB89-49BC-20FD-DE83-A41857D0978C" name="주문">
+<createdBy>ITPS</createdBy>
+<createdTime>2024-04-26 02:42:11 UTC</createdTime>
+<ownerDesignName>파일</ownerDesignName>
+<ordsAlias>table_5</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="주문일자" id="EF932A87-CE62-820A-2BB3-B93551B53D0C">
+<createdBy>ITPS</createdBy>
+<createdTime>2024-04-26 02:42:45 UTC</createdTime>
+<ownerDesignName>파일</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="주문금액" id="2DBEC44A-F355-A288-139F-43ADA02123C1">
+<createdBy>ITPS</createdBy>
+<createdTime>2024-04-26 02:42:45 UTC</createdTime>
+<ownerDesignName>파일</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="도서_도서번호" id="271DD6D1-349B-EB0B-4359-BC65927DA48F">
+<createdBy>ITPS</createdBy>
+<createdTime>2024-04-26 02:43:05 UTC</createdTime>
+<ownerDesignName>파일</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="FABCF9FC-07C2-1A9A-24E1-298764CC5B7B" referredColumn="A0EEE630-E646-8CEB-74FA-BE5EA222BD85"/>
+</associations>
+</Column>
+<Column name="고객_고객번호" id="468E3008-3DA5-46DB-AA2B-3B4785C0712C">
+<createdBy>ITPS</createdBy>
+<createdTime>2024-04-26 02:43:18 UTC</createdTime>
+<ownerDesignName>파일</ownerDesignName>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="05A2920E-C432-E8C5-9082-3FC69705060D" referredColumn="7FCB30E4-AE4C-3E92-BAB7-3D34593ED5F7"/>
+</associations>
+</Column>
+<Column name="주문번호" id="39DC9625-B8C9-2A92-D79B-2AEC391D66C5">
+<createdBy>ITPS</createdBy>
+<createdTime>2024-04-26 02:44:03 UTC</createdTime>
+<ownerDesignName>파일</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="A1D5E379-C0A8-BAE9-1A0B-2EDF30BC204E" name="주문_PK">
+<createdBy>ITPS</createdBy>
+<createdTime>2024-04-26 02:44:03 UTC</createdTime>
+<ownerDesignName>파일</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="39DC9625-B8C9-2A92-D79B-2AEC391D66C5"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="7E156E0F-8AF8-7FF7-942F-855A8CD27899" name="주문_도서_FK">
+<createdBy>ITPS</createdBy>
+<createdTime>2024-04-26 02:43:05 UTC</createdTime>
+<ownerDesignName>파일</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="271DD6D1-349B-EB0B-4359-BC65927DA48F"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="FA6876DD-6BFD-8995-8946-9C156AB748ED" name="주문_고객_FK">
+<createdBy>ITPS</createdBy>
+<createdTime>2024-04-26 02:43:18 UTC</createdTime>
+<ownerDesignName>파일</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="468E3008-3DA5-46DB-AA2B-3B4785C0712C"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

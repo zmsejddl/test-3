@@ -1,0 +1,19 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="7B2E69D5-9E64-E8EE-2E23-AAB230586DCF" containerWithKeyObject="AE0A2E3B-4B8B-DFF2-C065-78F5B74983D4" localFKIndex="E4C2D12E-0583-A388-E2E8-75F38B36026E" name="SYS_C007525">
+<sourceConnName>Madang</sourceConnName>
+<sourceObjSchema>C##MADANG</sourceObjSchema>
+<sourceObjName>SYS_C007525</sourceObjName>
+<createdBy>ITPS</createdBy>
+<createdTime>2024-04-26 05:49:45 UTC</createdTime>
+<ownerDesignName>파일</ownerDesignName>
+<referredTableLongName>C##MADANG.DEPT1</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>10EA436B-4A54-E489-86CF-E7FC4B6E1E48</referredTableID>
+<keyObject>4B7A14B3-B1B5-C5FC-723B-67D9C991D5D2</keyObject>
+<referredKeyID>4B7A14B3-B1B5-C5FC-723B-67D9C991D5D2</referredKeyID>
+<mandatory>false</mandatory>
+<refColNames>DNO</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>
