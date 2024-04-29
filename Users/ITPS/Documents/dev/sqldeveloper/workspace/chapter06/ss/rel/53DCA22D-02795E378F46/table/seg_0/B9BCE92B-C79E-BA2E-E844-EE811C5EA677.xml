@@ -1,0 +1,49 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="B9BCE92B-C79E-BA2E-E844-EE811C5EA677" name="price">
+<createdBy>ITPS</createdBy>
+<createdTime>2024-04-29 05:24:10 UTC</createdTime>
+<ownerDesignName>ss</ownerDesignName>
+<ordsAlias>table_4</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="price" id="1FF8231A-38FC-3E3A-C0B8-803C359A3A25">
+<createdBy>ITPS</createdBy>
+<createdTime>2024-04-29 05:24:22 UTC</createdTime>
+<ownerDesignName>ss</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="part_partnumber" id="3DC43A03-3E83-D90D-2964-04CEE7465621">
+<createdBy>ITPS</createdBy>
+<createdTime>2024-04-29 05:27:35 UTC</createdTime>
+<ownerDesignName>ss</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="E541A472-E94A-76F0-DEB4-F070AAECFB2D" referredColumn="F6E2C606-6FFD-FC86-BFF5-6E81EB8414C4"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="D4991AC9-F137-43E2-FEA4-0918750EFFCD" name="price_part_FK">
+<createdBy>ITPS</createdBy>
+<createdTime>2024-04-29 05:27:35 UTC</createdTime>
+<ownerDesignName>ss</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="3DC43A03-3E83-D90D-2964-04CEE7465621"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

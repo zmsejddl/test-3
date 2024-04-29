@@ -1,0 +1,84 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="E4069F0A-E82B-476F-33D2-DAF484E4E851" name="date">
+<createdBy>ITPS</createdBy>
+<createdTime>2024-04-29 05:09:44 UTC</createdTime>
+<ownerDesignName>ss</ownerDesignName>
+<ordsAlias>table_3</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="port" id="FD75C16C-27E9-8309-D3D6-23FC36DC6E5B">
+<createdBy>ITPS</createdBy>
+<createdTime>2024-04-29 05:10:17 UTC</createdTime>
+<ownerDesignName>ss</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="shipdate" id="EDA54D15-07B9-8936-F872-CA5DCE9F17DC">
+<createdBy>ITPS</createdBy>
+<createdTime>2024-04-29 05:10:17 UTC</createdTime>
+<ownerDesignName>ss</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="voyage_voyage_id" id="4DADD9FD-DEFF-1FF6-1038-EE5F8BAD347E">
+<createdBy>ITPS</createdBy>
+<createdTime>2024-04-29 05:35:38 UTC</createdTime>
+<ownerDesignName>ss</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="883CDCCD-D1AC-3C6F-6908-F58F285B2148" referredColumn="4F45E786-D5AF-0F63-0C8C-274FF0A5C7CD"/>
+</associations>
+</Column>
+<Column name="ship_ship_id" id="DF8F743E-0D0D-768C-7FAB-8A6BE5583176">
+<createdBy>ITPS</createdBy>
+<createdTime>2024-04-29 05:36:17 UTC</createdTime>
+<ownerDesignName>ss</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="1EA9D671-AE66-0E6B-3554-836902D8B4E8" referredColumn="F03FED53-CA1F-5B86-95F1-3C97D4059C73"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="AB51B8EF-EC96-25C0-565C-01971E384514" name="date_voyage_FK">
+<createdBy>ITPS</createdBy>
+<createdTime>2024-04-29 05:35:38 UTC</createdTime>
+<ownerDesignName>ss</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="4DADD9FD-DEFF-1FF6-1038-EE5F8BAD347E"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="73D779E2-B5BF-A5B7-8BF8-65C9539C3152" name="date_ship_FK">
+<createdBy>ITPS</createdBy>
+<createdTime>2024-04-29 05:36:17 UTC</createdTime>
+<ownerDesignName>ss</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="DF8F743E-0D0D-768C-7FAB-8A6BE5583176"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

@@ -1,0 +1,50 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="B2DD8BA7-709F-750B-DF7E-D7569D4EF21C" name="author">
+<createdBy>ITPS</createdBy>
+<createdTime>2024-04-29 05:20:17 UTC</createdTime>
+<ownerDesignName>ss</ownerDesignName>
+<ordsAlias>table_4</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="authorgroup" id="3265AA7E-3956-ECF1-5FFC-C283AA3439F7">
+<createdBy>ITPS</createdBy>
+<createdTime>2024-04-29 05:20:51 UTC</createdTime>
+<ownerDesignName>ss</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100</dataTypeSize>
+<ownDataTypeParameters>100,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="book_bookid" id="0DDF5B0E-A13E-C500-CD56-9E8EBDB3100C">
+<createdBy>ITPS</createdBy>
+<createdTime>2024-04-29 05:33:11 UTC</createdTime>
+<ownerDesignName>ss</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="124FF763-22DF-C332-0264-13E6037A8460" referredColumn="D9B97745-9143-0DD8-ECC7-1485286B0F52"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="EADC1CDB-47B0-379F-6944-C803B9C53F12" name="author_book_FK">
+<createdBy>ITPS</createdBy>
+<createdTime>2024-04-29 05:33:11 UTC</createdTime>
+<ownerDesignName>ss</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="0DDF5B0E-A13E-C500-CD56-9E8EBDB3100C"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

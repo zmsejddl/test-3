@@ -1,0 +1,49 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="326EE444-B84D-0266-2142-4490B1345BE9" name="price">
+<createdBy>ITPS</createdBy>
+<createdTime>2024-04-29 05:17:47 UTC</createdTime>
+<ownerDesignName>ss</ownerDesignName>
+<ordsAlias>table_3</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="listprice" id="404110AD-93ED-665A-5467-66BC47035101">
+<createdBy>ITPS</createdBy>
+<createdTime>2024-04-29 05:18:19 UTC</createdTime>
+<ownerDesignName>ss</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="type_booktype_id" id="F067E45D-47AC-248F-7167-979018234520">
+<createdBy>ITPS</createdBy>
+<createdTime>2024-04-29 05:32:44 UTC</createdTime>
+<ownerDesignName>ss</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="0B677912-8796-CE34-B8EB-AD4462F0E754" referredColumn="8B7F3B8E-4B5B-55AC-0799-8A275D4322C3"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="BB30EA62-E999-BAE8-AC39-B15B51E50149" name="price_type_FK">
+<createdBy>ITPS</createdBy>
+<createdTime>2024-04-29 05:32:44 UTC</createdTime>
+<ownerDesignName>ss</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="F067E45D-47AC-248F-7167-979018234520"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

@@ -1,0 +1,71 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="592664AE-19CD-B871-2BA8-54166744FEDC" name="type">
+<createdBy>ITPS</createdBy>
+<createdTime>2024-04-29 05:31:02 UTC</createdTime>
+<ownerDesignName>ss</ownerDesignName>
+<ordsAlias>table_5</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="book_bookid" id="2F37D932-F669-F211-A765-366437AA80AD">
+<createdBy>ITPS</createdBy>
+<createdTime>2024-04-29 05:31:19 UTC</createdTime>
+<ownerDesignName>ss</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="C25235C2-56C2-4235-EFF4-D5600FF1BFB5" referredColumn="D9B97745-9143-0DD8-ECC7-1485286B0F52"/>
+</associations>
+</Column>
+<Column name="booktype" id="1217903C-2003-C40A-F8A5-881E1CF2FCDF">
+<createdBy>ITPS</createdBy>
+<createdTime>2024-04-29 05:31:38 UTC</createdTime>
+<ownerDesignName>ss</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100</dataTypeSize>
+<ownDataTypeParameters>100,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="booktype_id" id="8B7F3B8E-4B5B-55AC-0799-8A275D4322C3">
+<createdBy>ITPS</createdBy>
+<createdTime>2024-04-29 05:32:40 UTC</createdTime>
+<ownerDesignName>ss</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="A7587B6E-905D-144F-1602-3FF99F48E8EA" name="type_PK">
+<createdBy>ITPS</createdBy>
+<createdTime>2024-04-29 05:32:40 UTC</createdTime>
+<ownerDesignName>ss</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="8B7F3B8E-4B5B-55AC-0799-8A275D4322C3"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="EB617CF0-9DDE-64B0-8313-86DDD23044FF" name="type_book_FK">
+<createdBy>ITPS</createdBy>
+<createdTime>2024-04-29 05:31:19 UTC</createdTime>
+<ownerDesignName>ss</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="2F37D932-F669-F211-A765-366437AA80AD"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

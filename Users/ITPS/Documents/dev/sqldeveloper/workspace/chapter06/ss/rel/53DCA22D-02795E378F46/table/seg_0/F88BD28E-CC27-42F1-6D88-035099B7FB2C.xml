@@ -1,0 +1,83 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="F88BD28E-CC27-42F1-6D88-035099B7FB2C" name="supply">
+<createdBy>ITPS</createdBy>
+<createdTime>2024-04-29 05:23:15 UTC</createdTime>
+<ownerDesignName>ss</ownerDesignName>
+<ordsAlias>table_3</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="suppaddress" id="BFE8A972-5045-480E-6700-6D00EE58FCF8">
+<createdBy>ITPS</createdBy>
+<createdTime>2024-04-29 05:23:56 UTC</createdTime>
+<ownerDesignName>ss</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>500</dataTypeSize>
+<ownDataTypeParameters>500,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="supplier" id="8746C472-C468-972A-50E7-DA2C91B5310B">
+<createdBy>ITPS</createdBy>
+<createdTime>2024-04-29 05:23:56 UTC</createdTime>
+<ownerDesignName>ss</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100</dataTypeSize>
+<ownDataTypeParameters>100,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="supplier_id" id="EEF4FB98-E3EC-D29A-9C8E-7AD06DA84C13">
+<createdBy>ITPS</createdBy>
+<createdTime>2024-04-29 05:23:56 UTC</createdTime>
+<ownerDesignName>ss</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="part_partnumber" id="63BB2908-41A6-417A-03C3-B75DAA55C312">
+<createdBy>ITPS</createdBy>
+<createdTime>2024-04-29 05:27:41 UTC</createdTime>
+<ownerDesignName>ss</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="E9DAEB5C-E353-5C3E-CA26-4EBA783E1CCB" referredColumn="F6E2C606-6FFD-FC86-BFF5-6E81EB8414C4"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="D6943046-F326-3616-287B-9154E767AA9E" name="TABLE_3_PK">
+<createdBy>ITPS</createdBy>
+<createdTime>2024-04-29 05:23:56 UTC</createdTime>
+<ownerDesignName>ss</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="EEF4FB98-E3EC-D29A-9C8E-7AD06DA84C13"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="3F539802-CA04-883F-BD55-842E8F0EA58F" name="supply_part_FK">
+<createdBy>ITPS</createdBy>
+<createdTime>2024-04-29 05:27:41 UTC</createdTime>
+<ownerDesignName>ss</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="63BB2908-41A6-417A-03C3-B75DAA55C312"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

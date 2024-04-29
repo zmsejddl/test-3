@@ -1,0 +1,16 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="E541A472-E94A-76F0-DEB4-F070AAECFB2D" containerWithKeyObject="B9BCE92B-C79E-BA2E-E844-EE811C5EA677" localFKIndex="D4991AC9-F137-43E2-FEA4-0918750EFFCD" name="price_part_FK">
+<createdBy>ITPS</createdBy>
+<createdTime>2024-04-29 05:27:35 UTC</createdTime>
+<ownerDesignName>ss</ownerDesignName>
+<referredTableLongName>part</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>30324AED-BEDD-9CE6-C122-5043C5E1428B</referredTableID>
+<keyObject>9FCAC6AA-D869-0266-8E57-073B9485AF43</keyObject>
+<referredKeyID>9FCAC6AA-D869-0266-8E57-073B9485AF43</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>partnumber</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

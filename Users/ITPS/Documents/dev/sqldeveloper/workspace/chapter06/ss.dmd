@@ -1,0 +1,8 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<OSDM_Design class="oracle.dbtools.crest.model.design.Design" name="ss" id="AE016021-4145-8DBD-AEF0-2631B17B7800" version="3.5">
+<createdBy>ITPS</createdBy>
+<createdTime>2024-04-29 03:12:48 UTC</createdTime>
+<ownerDesignName>ss</ownerDesignName>
+<capitalNames>false</capitalNames>
+<designId>AE016021-4145-8DBD-AEF0-2631B17B7800</designId>
+</OSDM_Design>

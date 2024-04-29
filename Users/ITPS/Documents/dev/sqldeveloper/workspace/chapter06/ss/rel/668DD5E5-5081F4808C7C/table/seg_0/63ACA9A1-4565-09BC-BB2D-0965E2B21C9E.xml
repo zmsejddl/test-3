@@ -1,0 +1,58 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="63ACA9A1-4565-09BC-BB2D-0965E2B21C9E" name="ship">
+<createdBy>ITPS</createdBy>
+<createdTime>2024-04-29 05:07:04 UTC</createdTime>
+<ownerDesignName>ss</ownerDesignName>
+<ordsAlias>table_1</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="ship_id" id="F03FED53-CA1F-5B86-95F1-3C97D4059C73">
+<createdBy>ITPS</createdBy>
+<createdTime>2024-04-29 05:08:23 UTC</createdTime>
+<ownerDesignName>ss</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="shipname" id="FC179569-0B0A-4A12-6A4D-2798C2F03B47">
+<createdBy>ITPS</createdBy>
+<createdTime>2024-04-29 05:08:23 UTC</createdTime>
+<ownerDesignName>ss</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100</dataTypeSize>
+<ownDataTypeParameters>100,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="shiptype" id="47240C87-FFDD-8A71-22BD-5EC9001B61A7">
+<createdBy>ITPS</createdBy>
+<createdTime>2024-04-29 05:08:23 UTC</createdTime>
+<ownerDesignName>ss</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100</dataTypeSize>
+<ownDataTypeParameters>100,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="ADCF0306-4B01-0340-175B-016797E6C9C1" name="shipname_PK">
+<createdBy>ITPS</createdBy>
+<createdTime>2024-04-29 05:08:23 UTC</createdTime>
+<ownerDesignName>ss</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="F03FED53-CA1F-5B86-95F1-3C97D4059C73"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

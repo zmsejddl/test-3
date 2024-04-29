@@ -1,0 +1,47 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="30324AED-BEDD-9CE6-C122-5043C5E1428B" name="part">
+<createdBy>ITPS</createdBy>
+<createdTime>2024-04-29 05:21:58 UTC</createdTime>
+<ownerDesignName>ss</ownerDesignName>
+<ordsAlias>table_1</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="description" id="2CA4DFD7-CE9A-34AC-B74A-F5927EE5EC2F">
+<createdBy>ITPS</createdBy>
+<createdTime>2024-04-29 05:22:55 UTC</createdTime>
+<ownerDesignName>ss</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>500</dataTypeSize>
+<ownDataTypeParameters>500,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="partnumber" id="F6E2C606-6FFD-FC86-BFF5-6E81EB8414C4">
+<createdBy>ITPS</createdBy>
+<createdTime>2024-04-29 05:22:55 UTC</createdTime>
+<ownerDesignName>ss</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="9FCAC6AA-D869-0266-8E57-073B9485AF43" name="TABLE_1_PK">
+<createdBy>ITPS</createdBy>
+<createdTime>2024-04-29 05:22:55 UTC</createdTime>
+<ownerDesignName>ss</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="F6E2C606-6FFD-FC86-BFF5-6E81EB8414C4"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>
